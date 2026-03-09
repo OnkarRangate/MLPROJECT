@@ -1,7 +1,7 @@
-from setuptools import find_packages,setup
+from setuptools import find_packages,setup #find out all the packages in entire ml appplication
 from typing import List
 
-HYPEN_E_DOT='-e .' #when we are installing requirements.txt then setup.py should simultaneously
+HYPEN_E_DOT='-e .' #when we are installing requirements.txt then setup.py should simultaneously exceuted
 
 def get_requirements(file_path:str)->List[str]:
     '''this function will return the list of requirements'''
